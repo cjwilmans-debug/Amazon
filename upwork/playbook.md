@@ -17,6 +17,8 @@ Target for the first 90 days: 4 new retainer clients and 8 paid audits from Upwo
 
 No weekly meetings. The BDR sends a written weekly report (see KPIs) and the owner reads it async.
 
+**Where things live:** Google Drive, [Savage Brands / Upwork_Growth](https://drive.google.com/drive/folders/1hnCIl_uXb8Q8SocAaOjYW_u0Re2pw7fL), set up like the client folders: 00_Playbook, 01_Templates, 02_Prospects (one folder per prospect with Teardown, Proposal, Call_Notes), 03_Case_Studies, 04_Reports, 05_New_Client_Template. Not in ClickUp.
+
 ## Our method: listing first, then market, then PPC
 
 PPC is one of many levers, and it comes last. Without a listing that is set up for success, PPC is gambling, not production. PPC will not fix a broken listing or a mismanaged account.
@@ -190,7 +192,7 @@ We close on a paid first step, then use the same toolkit for every client so any
 - [ ] Connect Scale Insights and Titan for the account
 - [ ] COGS and landed cost per SKU from the client
 - [ ] Kickoff call: goals, team contacts, how they want reports
-- [ ] BDR posts the handoff note in ClickUp and steps out
+- [ ] BDR posts the handoff note in the client's Drive folder and steps out
 
 **Advisory toolkit: which tool answers which client question**
 

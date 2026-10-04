@@ -27,11 +27,13 @@ Proof we lead with: the owner and a small team run 2 Amazon accounts doing over 
 | --- | --- | --- |
 | 1. Listing | Is the listing set up for success? | Main image built for CTR vs page 1; A/B tests running (Manage Your Experiments); indexed on the right keywords; no suppressed or search suppressed ASINs; title, bullets, images and A+ match search intent |
 | 2. Market | How does the market convert, and how do we convert? | Conversion and click share vs the market per keyword (Search Query Performance); keywords where we outperform; keywords where we underperform, and why (price, reviews, image, offer) |
-| 3. PPC | What is the objective of PPC right now? | The phase of the product and company decides it: launch = rank, growth = market share, mature = profit. Then structure, bids and budgets serve that one objective |
+| 3. PPC | What is the objective of PPC right now? | The phase of the product and company decides it: launch = rank, growth = market share, mature = profit. Then structure, bids and budgets serve that one objective. If CPC on the target keywords is too high to rank profitably, part of the marketing budget moves to external traffic (Meta, Google, TikTok, creators, email) sent through Amazon Attribution links |
+
+**When CPC is too expensive:** PPC is not the only way to buy the sales that drive organic rank. When the goal is rank and CPC on the target keywords makes each sale too costly, part of the budget goes to an external traffic source. External traffic adds sales velocity, earns the Brand Referral Bonus (about 10% back on attributed sales), and is measured with Amazon Attribution. Our check: cost per sale from PPC on the target keyword vs cost per sale from external traffic, and the budget follows the cheaper one. Only Attribution or standard listing links are used, never keyword manipulation URLs or incentivized reviews.
 
 Rule for the whole team: we cannot rank if we do not index. Every audit, proposal and monthly report follows this order, and no PPC recommendation goes out before stages 1 and 2 are checked.
 
-Diagram (see the shared doc): Listing, then Market, then PPC. Gates: indexed and visible; conversion gaps known.
+Diagram (see the shared doc): Listing, then Market, then PPC. Gates: indexed and visible; conversion gaps known. High CPC: add external traffic.
 
 ## Agency profile setup (week 1)
 
@@ -134,13 +136,13 @@ You asked for someone who understands the P&L, not only ads. I agree: PPC is one
 
 1. Listing first. Is the main image winning the click against page 1? Are you A/B testing it? Are your ASINs indexed for the keywords that matter, and is anything suppressed or search suppressed? You cannot rank where you are not indexed.
 2. Market second. How does your market convert, and how do you convert, keyword by keyword? Where are you outperforming, and where are you losing, and why (price, reviews, image, offer)?
-3. PPC third. What is PPC for right now: rank, market share or profit? That depends on the phase each product is in. At $10k to $12k a month, I would expect part of that spend to be chasing the wrong objective.
+3. PPC third. What is PPC for right now: rank, market share or profit? That depends on the phase each product is in. At $10k to $12k a month, I would expect part of that spend to be chasing the wrong objective. And where CPC is too high to rank profitably, part of the budget should go to external traffic, tracked through Amazon Attribution.
 
 Alongside that: a SKU level P&L (landed cost, fees, ads) to show which SKUs make money, a check of inventory cover and reorder timing, and a go or no go framework for new launches.
 
 Your teams keep executing. You get a written action plan each month, a review call, and direct access to me in between.
 
-If you share your brand or main ASIN, I will send a short video with what I see on your listing before we talk.
+I'll audit your account for free, I just need eyes on it. Share your brand or main ASIN (or read-only access if you prefer) and I will send a short video with what I find before we talk.
 
 Best,
 [Name]
@@ -198,6 +200,7 @@ We close on a paid first step, then use the same toolkit for every client so any
 | Is the main image winning the click? (stage 1) | Manage Your Experiments; `amazon-carousel` and `marketing-images` skills for test variants | Main image test plan and CTR result |
 | How do we convert vs the market? (stage 2) | Scale Insights `get_sqp_intelligence`; Titan `get_sqp_metrics` | Keywords where we win and lose, with the reason |
 | What is PPC for right now? (stage 3) | Product phase from sales trend and rank: Scale Insights `get_sales_trend`, Titan `get_bsr_history` | Objective per product: rank, share or profit |
+| Is CPC too high to rank on PPC alone? (stage 3) | Scale Insights `get_keyword_performance`, `get_search_term_performance`; Titan `get_sp_bid_recommendations`; `ads-spy` skill for external creative angles | PPC vs external traffic cost per sale, and the budget split |
 | Is our PPC profitable? (stage 3) | Scale Insights `get_executive_brief`, `get_redundant_spend`, `get_ppc_exact_coverage` | Wasted spend in $, campaigns to cut or move |
 | Which SKUs lose money? | Scale Insights `get_underwater_products`; Titan `get_product_performance_summary` | SKU P&L table, price or ad changes per SKU |
 | Where is free organic upside? | Scale Insights `get_organic_upside` | Top searches to rank for and their profit value |

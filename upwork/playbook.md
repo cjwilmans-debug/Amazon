@@ -23,7 +23,7 @@ No weekly meetings. The BDR sends a written weekly report (see KPIs) and the own
 
 PPC is one of many levers, and it comes last. Without a listing that is set up for success, PPC is gambling, not production. PPC will not fix a broken listing or a mismanaged account.
 
-Proof we lead with: the owner and a small team run 2 Amazon accounts that each do $2M to $3M per month outside peak season, over $20M a year each.
+Proof we lead with: the owner and a small team run 2 Amazon accounts that each do $2M to $3M per month outside peak season, over $20M a year each. Positioning: a small team on purpose (the owner, the owner's brother and 2 employees). We do not stack clients; we take on a few brands we can add real value to and enjoy working with. Every proposal says this.
 
 | Stage | Question | What we check |
 | --- | --- | --- |
@@ -132,7 +132,7 @@ Proposal (fill the brackets from the teardown):
 ```markdown
 Hi there,
 
-My team and I currently run 2 Amazon accounts that each do $2M to $3M per month outside peak season, over $20M a year each. Because that team runs well without me in the weeds, I have room to advise a few more brands.
+My team and I currently run 2 Amazon accounts that each do $2M to $3M per month outside peak season, over $20M a year each. We are a small team on purpose: me, my brother and 2 employees. We are not stacking clients. We only take on a few brands where we can add real value and that we enjoy working with.
 
 You asked for someone who understands the P&L, not only ads. I agree: PPC is one lever, and it comes last. Without the basics in place, ad spend is gambling, not production. This is the order I would review your business in:
 

@@ -21,7 +21,7 @@ No weekly meetings. The BDR sends a written weekly report (see KPIs) and the own
 
 PPC is one of many levers, and it comes last. Without a listing that is set up for success, PPC is gambling, not production. PPC will not fix a broken listing or a mismanaged account.
 
-Proof we lead with: the owner and a small team run 2 Amazon accounts doing over $20M a year combined, $2M to $3M per month outside peak season.
+Proof we lead with: the owner and a small team run 2 Amazon accounts that each do $2M to $3M per month outside peak season, over $20M a year each.
 
 | Stage | Question | What we check |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ We move from a single freelancer profile to an Agency profile so the BDR can bid
 - [ ] Invite the BDR as Business Manager so they can send proposals, message clients and accept offers. Invite AMs as Agency Members.
 - [ ] Set the owner's freelancer profile to "agency only" so earnings and Job Success Score build on the agency.
 - [ ] Agency title: "Amazon Growth Agency for 7 and 8 Figure Brands | PPC, P&L, Launches".
-- [ ] Overview (first 2 lines show in search): who we help, the result, proof. Example: "We run 2 Amazon accounts doing $20M+ a year. We fix the listing first, then win the market, and only then use PPC to rank, gain share or drive profit."
+- [ ] Overview (first 2 lines show in search): who we help, the result, proof. Example: "We run 2 Amazon accounts that each do $20M+ a year. We fix the listing first, then win the market, and only then use PPC to rank, gain share or drive profit."
 - [ ] Five specialized profiles on the BDR and senior AM accounts: Full Account Management, PPC Management, Listings and Creative, Launches and Audits, Fractional Amazon Operator.
 - [ ] Portfolio: 6 case studies, each with brand category, starting point, actions, result in numbers (revenue, TACoS, margin), and a screenshot with client details hidden.
 - [ ] Skills: Amazon Seller Central, Amazon PPC, Amazon FBA, Amazon Listing Optimization, Amazon Brand Registry, Ecommerce Strategy, Inventory Management.
@@ -130,7 +130,7 @@ Proposal (fill the brackets from the teardown):
 ```markdown
 Hi there,
 
-My team and I currently run 2 Amazon accounts doing over $20M a year combined, $2M to $3M per month outside peak season. Because that team runs well without me in the weeds, I have room to advise a few more brands.
+My team and I currently run 2 Amazon accounts that each do $2M to $3M per month outside peak season, over $20M a year each. Because that team runs well without me in the weeds, I have room to advise a few more brands.
 
 You asked for someone who understands the P&L, not only ads. I agree: PPC is one lever, and it comes last. Without the basics in place, ad spend is gambling, not production. This is the order I would review your business in:
 

@@ -17,6 +17,22 @@ Target for the first 90 days: 4 new retainer clients and 8 paid audits from Upwo
 
 No weekly meetings. The BDR sends a written weekly report (see KPIs) and the owner reads it async.
 
+## Our method: listing first, then market, then PPC
+
+PPC is one of many levers, and it comes last. Without a listing that is set up for success, PPC is gambling, not production. PPC will not fix a broken listing or a mismanaged account.
+
+Proof we lead with: the owner and a small team run 2 Amazon accounts doing over $20M a year combined, $2M to $3M per month outside peak season.
+
+| Stage | Question | What we check |
+| --- | --- | --- |
+| 1. Listing | Is the listing set up for success? | Main image built for CTR vs page 1; A/B tests running (Manage Your Experiments); indexed on the right keywords; no suppressed or search suppressed ASINs; title, bullets, images and A+ match search intent |
+| 2. Market | How does the market convert, and how do we convert? | Conversion and click share vs the market per keyword (Search Query Performance); keywords where we outperform; keywords where we underperform, and why (price, reviews, image, offer) |
+| 3. PPC | What is the objective of PPC right now? | The phase of the product and company decides it: launch = rank, growth = market share, mature = profit. Then structure, bids and budgets serve that one objective |
+
+Rule for the whole team: we cannot rank if we do not index. Every audit, proposal and monthly report follows this order, and no PPC recommendation goes out before stages 1 and 2 are checked.
+
+Diagram (see the shared doc): Listing, then Market, then PPC. Gates: indexed and visible; conversion gaps known.
+
 ## Agency profile setup (week 1)
 
 We move from a single freelancer profile to an Agency profile so the BDR can bid and the team can deliver under one brand.
@@ -25,7 +41,7 @@ We move from a single freelancer profile to an Agency profile so the BDR can bid
 - [ ] Invite the BDR as Business Manager so they can send proposals, message clients and accept offers. Invite AMs as Agency Members.
 - [ ] Set the owner's freelancer profile to "agency only" so earnings and Job Success Score build on the agency.
 - [ ] Agency title: "Amazon Growth Agency for 7 and 8 Figure Brands | PPC, P&L, Launches".
-- [ ] Overview (first 2 lines show in search): who we help, the result, proof. Example: "We grow profitable Amazon brands. Our operators manage PPC, pricing and launches with the full P&L in view, not ad metrics alone."
+- [ ] Overview (first 2 lines show in search): who we help, the result, proof. Example: "We run 2 Amazon accounts doing $20M+ a year. We fix the listing first, then win the market, and only then use PPC to rank, gain share or drive profit."
 - [ ] Five specialized profiles on the BDR and senior AM accounts: Full Account Management, PPC Management, Listings and Creative, Launches and Audits, Fractional Amazon Operator.
 - [ ] Portfolio: 6 case studies, each with brand category, starting point, actions, result in numbers (revenue, TACoS, margin), and a screenshot with client details hidden.
 - [ ] Skills: Amazon Seller Central, Amazon PPC, Amazon FBA, Amazon Listing Optimization, Amazon Brand Registry, Ecommerce Strategy, Inventory Management.
@@ -82,7 +98,7 @@ Every proposal over $1,000 or any retainer job opens with 3 facts about the clie
 **Pre-proposal teardown (20 minutes, BDR, public data only):**
 
 1. Find the brand: from the post, the client's past jobs, or by searching the product type on Amazon.
-2. Pull the storefront and ASINs with the Scrape Creators `amazon_shop` tool in Claude.
+2. Pull the storefront and ASINs with the Scrape Creators `amazon_shop` tool in Claude. Check each hero ASIN for suppression: search its exact title; if it does not show, it is likely search suppressed. Compare its main image with the top 5 on page 1: is it the clearest product at thumbnail size?
 3. Run the `rank-readiness` skill on the hero ASIN and its main keyword. It scores indexing, conversion, price and relevance against page 1.
 4. Note 3 specific findings, e.g. "not indexed for 'bamboo cutting board set'", "rating 4.2 vs page 1 average 4.6", "main image shows 1 of 3 boards in the set".
 5. Optional for $1M+/yr brands: run the `ads-spy` skill on 2 competitors to show what ads are working in their niche.
@@ -110,27 +126,27 @@ Offer to pitch: **Fractional Amazon Operator**. Call owner: **senior AM** ($83k/
 Proposal (fill the brackets from the teardown):
 
 ```markdown
-Hi [Name],
+Hi there,
 
-I looked at [hero product] before writing this. It ranks on page 1 for [keyword A] but is not indexed for [keyword B], which carries roughly [x]% of the niche's searches. With $10k to $12k a month in ads, that is likely where part of your spend is leaking.
+My team and I currently run 2 Amazon accounts doing over $20M a year combined, $2M to $3M per month outside peak season. Because that team runs well without me in the weeds, I have room to advise a few more brands.
 
-We advise 7 figure physical product brands that already have execution teams. Last year we helped [similar brand] cut TACoS from [x]% to [y]% while growing revenue [z]%, by fixing SKU level pricing and cutting ads on low margin variants.
+You asked for someone who understands the P&L, not only ads. I agree: PPC is one lever, and it comes last. Without the basics in place, ad spend is gambling, not production. This is the order I would review your business in:
 
-In the first 30 days I would:
-- Build a SKU level P&L (landed cost, fees, ad spend) and flag every SKU losing money after ads
-- Review PPC for redundant spend and campaigns bidding on terms you already win organically
-- Check inventory cover and reorder points against your sales trend, so launches don't starve the core line
+1. Listing first. Is the main image winning the click against page 1? Are you A/B testing it? Are your ASINs indexed for the keywords that matter, and is anything suppressed or search suppressed? You cannot rank where you are not indexed.
+2. Market second. How does your market convert, and how do you convert, keyword by keyword? Where are you outperforming, and where are you losing, and why (price, reviews, image, offer)?
+3. PPC third. What is PPC for right now: rank, market share or profit? That depends on the phase each product is in. At $10k to $12k a month, I would expect part of that spend to be chasing the wrong objective.
 
-Your teams keep running day to day. You get one written action plan per month, a 60 minute review call, and async answers in between.
+Alongside that: a SKU level P&L (landed cost, fees, ads) to show which SKUs make money, a check of inventory cover and reorder timing, and a go or no go framework for new launches.
 
-Case study: [link]
+Your teams keep executing. You get a written action plan each month, a review call, and direct access to me in between.
 
-I recorded a 3 minute walkthrough of your listing. Want me to send it, or should we talk for 15 minutes this week?
+If you share your brand or main ASIN, I will send a short video with what I see on your listing before we talk.
 
-[BDR name], on behalf of [Agency]
+Best,
+[Name]
 ```
 
-Why it works: it proves we looked at their account, speaks P&L (not only ads), respects their existing teams, and asks for a small next step.
+Why it works: it opens with real proof at a bigger scale than theirs, shows a clear method (listing, market, then PPC), speaks P&L, respects their existing teams, and asks for a small next step.
 
 ## Qualification and call routing
 
@@ -178,16 +194,41 @@ We close on a paid first step, then use the same toolkit for every client so any
 
 | Client question | Tool | Output for the monthly report |
 | --- | --- | --- |
-| Is our PPC profitable? | Scale Insights `get_executive_brief`, `get_redundant_spend`, `get_ppc_exact_coverage` | Wasted spend in $, campaigns to cut or move |
+| Is the listing set up for success? (stage 1) | `rank-readiness` and `amazon-keyword-research` skills; Seller Central suppressed and search suppressed reports | Indexing gaps, suppression fixes, title and bullet changes |
+| Is the main image winning the click? (stage 1) | Manage Your Experiments; `amazon-carousel` and `marketing-images` skills for test variants | Main image test plan and CTR result |
+| How do we convert vs the market? (stage 2) | Scale Insights `get_sqp_intelligence`; Titan `get_sqp_metrics` | Keywords where we win and lose, with the reason |
+| What is PPC for right now? (stage 3) | Product phase from sales trend and rank: Scale Insights `get_sales_trend`, Titan `get_bsr_history` | Objective per product: rank, share or profit |
+| Is our PPC profitable? (stage 3) | Scale Insights `get_executive_brief`, `get_redundant_spend`, `get_ppc_exact_coverage` | Wasted spend in $, campaigns to cut or move |
 | Which SKUs lose money? | Scale Insights `get_underwater_products`; Titan `get_product_performance_summary` | SKU P&L table, price or ad changes per SKU |
-| Where is free organic upside? | Scale Insights `get_organic_upside`, `get_sqp_intelligence` | Top searches to rank for and their profit value |
+| Where is free organic upside? | Scale Insights `get_organic_upside` | Top searches to rank for and their profit value |
 | Should we launch this product? | `niche-demand` and `landscape-sheets` skills | Go or no go with units needed to rank |
-| Is it ready for a ranking push? | `rank-readiness` skill | Red, yellow, green scorecard |
 | Are we going to stock out? | Scale Insights `get_inventory_data`; Titan AWD tools | Weeks of cover, reorder dates |
 | Can we source cheaper? | `supplier-intelligence` skill | Supplier shortlist and RFQ emails |
 | What ads work in our niche? | `ads-spy` skill | Creative brief from competitor winners |
 
 Any bid or budget change the tools propose is reviewed by the AM and approved by the client's team before it goes live. We advise; their team executes unless we hold a management retainer.
+
+## Entry client sprint (first 2 to 3 weeks)
+
+The new agency profile has no reviews yet, so the first goal is 3 to 5 small, fast wins that build the Job Success Score. Retainers come after.
+
+**Two catalog entry offers, both listing first (raise prices after 5 reviews):**
+
+| Offer | Price (USD) | Delivered in | What the client gets |
+| --- | --- | --- | --- |
+| Listing Health Check | 197 | 3 days | Indexing check on top keywords, suppression and search suppression check, main image vs page 1, a 10 point fix list on a Loom video |
+| Listing Optimization, 1 ASIN | 249 | 5 days | Keyword research, title, bullets, backend terms, main image brief for an A/B test |
+
+**Small jobs to apply to ($150 to $500):** listing rewrites, main image or gallery briefs, indexing and backend keyword fixes, suppressed listing fixes, A+ content, PPC audits.
+
+**Rules:**
+
+- Apply in the first hour after a job is posted; check saved searches 3 times a day.
+- Lead with a free 3 minute video teardown on any job above $500.
+- Skip unverified payment and $0 spend clients; a bad first review costs more than no job.
+- Deliver early, add one extra finding, ask for feedback at handover, then offer the monthly follow on.
+
+**Target:** 15 to 20 small proposals a week, 3 to 5 closed jobs and first reviews within 3 weeks. Then the BDR shifts focus to retainer and advisory jobs.
 
 ## Reviews, KPIs and escalation
 
